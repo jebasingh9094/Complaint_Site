@@ -245,28 +245,23 @@
     </div>
 
     <script>
-    // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+   // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyCZ9Nb1jnaterWrk2oleG1GaADIcmiOUbQ",
-  authDomain: "demoapi-684f1.firebaseapp.com",
-  databaseURL: "https://demoapi-684f1-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "demoapi-684f1",
-  storageBucket: "demoapi-684f1.firebasestorage.app",
-  messagingSenderId: "284957114917",
-  appId: "1:284957114917:web:fa2b8749ef5fb1780f35cc",
-  measurementId: "G-QH32S1HXZD"
-};
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyDZNS7IFz7StYzozjMJ9UE3lsqKMPF7KE8",
+    authDomain: "contact-hub-52p1w.firebaseapp.com",
+    projectId: "contact-hub-52p1w",
+    storageBucket: "contact-hub-52p1w.firebasestorage.app",
+    messagingSenderId: "135817384892",
+    appId: "1:135817384892:web:f311b50844dd9b2bb151b9"
+  };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
 
         // DOM elements
         const complaintForm = document.getElementById('complaintForm');
@@ -400,4 +395,5 @@ const analytics = getAnalytics(app);
         document.addEventListener('DOMContentLoaded', loadComplaints);
     </script>
 </body>
+
 </html>
