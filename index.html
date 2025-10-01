@@ -245,22 +245,17 @@
     </div>
 
     <script>
-   // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
+     // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyDZNS7IFz7StYzozjMJ9UE3lsqKMPF7KE8",
+            authDomain: "contact-hub-52p1w.firebaseapp.com",
+            projectId: "contact-hub-52p1w",
+            storageBucket: "contact-hub-52p1w.firebasestorage.app",
+            messagingSenderId: "135817384892",
+            appId: "1:135817384892:web:f311b50844dd9b2bb151b9"
+        };
 
-  // Your web app's Firebase configuration
-  const firebaseConfig = {
-    apiKey: "AIzaSyDZNS7IFz7StYzozjMJ9UE3lsqKMPF7KE8",
-    authDomain: "contact-hub-52p1w.firebaseapp.com",
-    projectId: "contact-hub-52p1w",
-    storageBucket: "contact-hub-52p1w.firebasestorage.app",
-    messagingSenderId: "135817384892",
-    appId: "1:135817384892:web:f311b50844dd9b2bb151b9"
-  };
-
-  // Initialize Firebase
+        // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
         const db = firebase.firestore();
 
@@ -398,4 +393,5 @@
 </body>
 
 </html>
+
 
